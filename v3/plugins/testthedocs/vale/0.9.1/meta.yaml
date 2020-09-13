@@ -6,13 +6,13 @@ type: VS Code extension
 displayName: Vale
 title: Vale
 description: Lint documents with Vale
-icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+icon: https://raw.githubusercontent.com/testthedocs/vscode-vale/0.9.1/vale.png
 repository: https://github.com/testthedocs/vscode-vale
 category: Other
 firstPublicationDate: "2020-01-30"
 spec:
   containers:
-    - image: "quay.io/eclipse/che-sidecar-vale:0.9.1-82a757a"
+    - image: "quay.io/eclipse/che-sidecar-vale:0.9.1-ad53ccf"
       name: "vscode-vale"
       memoryLimit: "512Mi"
   extensions:
